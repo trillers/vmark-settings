@@ -14,7 +14,7 @@ var settings = module.exports = {
   app: {
     protocol: 'http',
     host: '127.0.0.1',
-    port: 3020,
+    port: 3030,
     domain: 'http://ci.www.wenode.org',
     domainPort: 80,
     context: '/'
