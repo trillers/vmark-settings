@@ -1,13 +1,13 @@
 var settings = module.exports = {
   env: {
-    name: 'ci',
+    name: 'dev',
     mode: 'production',
     host: '127.0.0.1',
     port: 3020,
     bindIp: "0.0.0.0"
   },
 
-  env: {
+  security: {
     salt: 'quick'
   },
 
@@ -15,13 +15,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://ci.www.wenode.org',
+    domain: 'http://dev.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.www.wenode.org/api'
+    url: 'http://dev.www.wenode.org/api'
   },
 
   logging: {
