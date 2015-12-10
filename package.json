@@ -1,0 +1,14 @@
+{
+  "name": "vmark-settings",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "vmark settings",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/trillers/vmark-settings.git"
+  },
+  "main": "index.js",
+  "author": "henryleu@126.com",
+  "license": "",
+  "dependencies": {
+  }
+}
