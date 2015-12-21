@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'ci',
+    name: 'qa',
     mode: 'production',
     host: '127.0.0.1',
     port: 3040,
@@ -15,13 +15,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3040,
-    domain: 'http://ci.www.wenode.org',
+    domain: 'http://qa.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.www.wenode.org/api'
+    url: 'http://qa.www.wenode.org/api'
   },
 
   logging: {
