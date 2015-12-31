@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'dev',
+    name: 'prd',
     mode: 'production',
     host: '127.0.0.1',
     port: 3040,
@@ -15,13 +15,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3040,
-    domain: 'http://dev.www.wenode.org',
+    domain: 'http://www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://dev.www.wenode.org/api'
+    url: 'http://www.wenode.org/api'
   },
 
   logging: {
@@ -35,12 +35,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx23f1709f7727051f',
-    appSecret: '977f6080e128d465b673deb79e3d31b8',
+    appKey: 'wx8ecd17a4beabe76a',
+    appSecret: '74ad148c79ac88f844ad98b72d59de96',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_76ea74206101',
+    siteName: '跟谁学西安'
   },
 
   platform: {
