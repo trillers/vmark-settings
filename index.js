@@ -1,7 +1,7 @@
 var settings = module.exports = {
   env: {
-    name: 'nprd',
-    mode: 'production',
+    name: 'nci',
+    mode: 'development',
     host: '127.0.0.1',
     port: 3050,
     bindIp: "0.0.0.0"
@@ -15,13 +15,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3050,
-    domain: 'note.wenode.org',
+    domain: 'ci.note.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://note.wenode.org/api'
+    url: 'http://ci.note.wenode.org/api'
   },
 
   logging: {
@@ -35,12 +35,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx23f1709f7727051f',
-    appSecret: '977f6080e128d465b673deb79e3d31b8',
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_efb5d7c9539e',
+    siteName: '错题本测试号'
   },
 
   platform: {
