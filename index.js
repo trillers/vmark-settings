@@ -1,9 +1,9 @@
 var settings = module.exports = {
   env: {
-    name: 'prd',
+    name: 'nprd',
     mode: 'production',
     host: '127.0.0.1',
-    port: 3040,
+    port: 3050,
     bindIp: "0.0.0.0"
   },
 
@@ -14,14 +14,14 @@ var settings = module.exports = {
   app: {
     protocol: 'http',
     host: '127.0.0.1',
-    port: 3040,
-    domain: 'www.wenode.org',
+    port: 3050,
+    domain: 'note.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://note.wenode.org/api'
   },
 
   logging: {
@@ -35,12 +35,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx7adbe82cd874fa2c',
-    appSecret: '17a4cdedb84ad88b22ab98d992a22640',
+    appKey: 'wx23f1709f7727051f',
+    appSecret: '977f6080e128d465b673deb79e3d31b8',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_9ed53c8d30c4',
-    siteName: '白佳宝'
+    siteId: 'gh_afc333104d2a',
+    siteName: '错题本'
   },
 
   platform: {
