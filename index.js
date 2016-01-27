@@ -1,7 +1,7 @@
 var settings = module.exports = {
   env: {
     name: 'nci',
-    mode: 'development',
+    mode: 'production',
     host: '127.0.0.1',
     port: 3050,
     bindIp: "0.0.0.0"
