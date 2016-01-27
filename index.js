@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'nci',
+    name: 'ndev',
     mode: 'development',
     host: '127.0.0.1',
     port: 3050,
@@ -15,13 +15,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3050,
-    domain: 'ci.note.wenode.org',
+    domain: 'dev.note.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.note.wenode.org/api'
+    url: 'http://dev.note.wenode.org/api'
   },
 
   logging: {
@@ -46,5 +46,13 @@ var settings = module.exports = {
   platform: {
     name: '跟谁学',
     desc: '跟谁学'
+  },
+
+  resources: {
+    app: {
+      title: '友趣笔记',
+      desc: '友趣笔记'
+    }
   }
+
 };
