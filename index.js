@@ -46,5 +46,12 @@ var settings = module.exports = {
   platform: {
     name: '跟谁学',
     desc: '跟谁学'
+  },
+
+  resources: {
+    app: {
+      title: '友趣笔记',
+      desc: '友趣笔记'
+    }
   }
 };
