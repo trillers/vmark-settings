@@ -1,6 +1,6 @@
 {
   "name": "@private/vmark-settings",
-  "version": "1.0.0",
+  "version": "0.1.0-SNAPSHOT",
   "description": "vmark settings",
   "repository": {
     "type": "https",

@@ -1,9 +1,9 @@
 var settings = module.exports = {
   env: {
-    name: 'prd',
-    mode: 'production',
+    name: 'ndev',
+    mode: 'development',
     host: '127.0.0.1',
-    port: 3040,
+    port: 3050,
     bindIp: "0.0.0.0"
   },
 
@@ -14,14 +14,14 @@ var settings = module.exports = {
   app: {
     protocol: 'http',
     host: '127.0.0.1',
-    port: 3040,
-    domain: 'www.wenode.org',
+    port: 3050,
+    domain: 'dev.note.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://dev.note.wenode.org/api'
   },
 
   logging: {
@@ -35,16 +35,24 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx7adbe82cd874fa2c',
-    appSecret: '17a4cdedb84ad88b22ab98d992a22640',
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_9ed53c8d30c4',
-    siteName: '白佳宝'
+    siteId: 'gh_efb5d7c9539e',
+    siteName: '错题本测试号'
   },
 
   platform: {
     name: '跟谁学',
     desc: '跟谁学'
+  },
+
+  resources: {
+    app: {
+      title: '友趣笔记',
+      desc: '友趣笔记'
+    }
   }
+
 };
