@@ -40,7 +40,7 @@ var settings = module.exports = {
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
     siteId: 'gh_9ed53c8d30c4',
-    siteName: '白佳宝'
+    siteName: '百佳宝'
   },
 
   platform: {
