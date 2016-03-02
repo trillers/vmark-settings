@@ -1,10 +1,14 @@
 var settings = module.exports = {
     env: {
-        name: 'dev',
+        name: 'local',
         mode: 'production',
         host: '127.0.0.1',
-        port: 3040,
-        bindIp: "0.0.0.0"
+        port: 3030,
+        bindIp: "0.0.0.0",
+
+        NODE_ENV: 'production',
+        PORT: 3030,
+        BINDIP: "0.0.0.0"
     },
 
     security: {
@@ -14,19 +18,34 @@ var settings = module.exports = {
     app: {
         protocol: 'http',
         host: '127.0.0.1',
-        port: 3040,
-        domain: 'dev.www.wenode.org',
+        port: 3030,
+        domain: 'mtci.www.wenode.org',
         domainPort: 80,
         context: '/'
     },
 
     api: {
-        url: 'http://dev.www.wenode.org/api'
+        url: 'http://mtci.www.wenode.org/api'
     },
 
     logging: {
         reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
         level: 'DEBUG'
+    },
+
+    redis:{
+        mode:'single',
+        host: '127.0.0.1',
+        port: 6379,
+        auth:'trillers'
+    },
+
+    mongo: {
+        host: "114.215.91.211",
+        port: 27017,
+        db: "mt-ci",
+        username: 'mt-ci',
+        password: 'mt-ci'
     },
 
     session: {
