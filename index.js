@@ -33,21 +33,6 @@ var settings = module.exports = {
         level: 'DEBUG'
     },
 
-    redis:{
-        mode:'single',
-        host: '127.0.0.1',
-        port: 6379,
-        auth:'trillers'
-    },
-
-    mongo: {
-        host: "114.215.91.211",
-        port: 27017,
-        db: "mt-ci",
-        username: 'mt-ci',
-        password: 'mt-ci'
-    },
-
     session: {
         secretKey: 'quick',
         expires: 60 // minutes
