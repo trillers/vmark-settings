@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'ci',
+    name: 'gsx',
     mode: 'production',
     host: '127.0.0.1',
     port: 3040,
@@ -15,18 +15,18 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3040,
-    domain: 'ci.www.wenode.org',
+    domain: 'tools.baijiabao.com',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.www.wenode.org/api'
+    url: 'http://tools.baijiabao.com/api'
   },
 
   logging: {
     reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
-    level: 'DEBUG'
+    level: 'ERROR'
   },
 
   session: {
