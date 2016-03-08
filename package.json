@@ -1,13 +1,13 @@
 {
   "name": "@private/vmark-settings",
-  "version": "0.1.0-SNAPSHOT",
+  "version": "0.1.0",
   "description": "vmark settings",
   "repository": {
-    "type": "https",
-    "url": "https://github.com/trillers/vmark-settings.git"
+    "type": "http",
+    "url": "http://git.baijiahulian.com/baijiabao/vmark.git"
   },
   "main": "index.js",
-  "author": "henryleu@126.com",
+  "author": "lvhongli@baijiahulian.com",
   "license": "",
   "dependencies": {
   }
