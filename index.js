@@ -35,12 +35,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx23f1709f7727051f',
-    appSecret: '977f6080e128d465b673deb79e3d31b8',
+    appKey: 'wxf0148efdc11268f5',
+    appSecret: '70ea4630c8f0d02eeae8740a900f8910',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_7055580c1505',
+    siteName: '百加宝微网站'
   },
 
   platform: {
