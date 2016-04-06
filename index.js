@@ -35,12 +35,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx23f1709f7727051f',
-    appSecret: '977f6080e128d465b673deb79e3d31b8',
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_efb5d7c9539e',
+    siteName: '错题本测试号'
   },
 
   platform: {
